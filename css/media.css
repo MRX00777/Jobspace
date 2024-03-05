@@ -1,0 +1,385 @@
+@media (max-width: 1400px) {
+    .nav-content {
+        gap: 50px !important;
+    }
+}
+
+@media (max-width: 1250px) {
+    
+
+    .nav-content{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5px !important;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    .rezume-info__left-link a{
+        color: #716BC6 !important;
+        text-decoration: underline !important;
+    }
+
+    .share-resume{
+        display: flex !important;
+    }
+
+    .rezume-info__content{
+        gap: 20px !important;
+    }
+
+    .rezume-info__content{
+        display: flex !important;
+        flex-direction: column  !important;
+    }
+
+    .status{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
+
+@media (max-width: 1000px) {
+    .rezume-info__nav{
+        display: none !important;
+    }
+
+    .rezume-info__left-link i {
+        display: none;
+    }
+
+    .edit i {
+        display: none;
+    }
+
+    .rezume-info__left-link span,
+    .rezume-info__left-link{
+        font-size: 14px !important;
+    }
+
+    .about-me p {
+        font-size: 14px !important;
+    }
+
+    .salary p{
+        font-size: 16px !important;
+    }
+
+    .skills-list__link:nth-child(4) {
+        display: none;
+    }
+
+    .skills-list__link:nth-child(5) {
+        display: none;
+    }
+
+    .salary__content {
+        gap: 0px !important;
+    }
+
+    .working__imzo{
+        position: relative;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .working__imzo-content {
+        width: 100% !important;
+    }
+
+    .social .edit i,
+    .language-experience .edit i,
+    .education .edit i,
+    .experience  .edit i{
+        display: block !important;
+    }
+
+
+    /* .education */
+    .working-row__icons{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    
+    .working-row__title {
+        font-size: 18px !important;
+    }
+
+    .video {
+        padding: 0 !important;
+    }
+
+    .video-content{
+        height: 350px !important;
+    }
+
+    .language-experience__left p{
+        font-size: 14px !important;
+
+    }
+
+    .footer-nav {
+        flex-direction: row !important;
+        justify-content: space-around !important;
+        text-align: left !important; 
+    }
+
+    .social .about-me__row {
+        flex-direction: row !important;
+    }
+}
+
+@media (max-width: 800px){
+    .header-menu{
+        display: block !important;
+    }
+
+    .nav-content{
+        position: absolute;
+        flex-direction: column-reverse;
+        height: 95vh;
+        width: 50%;
+        background: white;
+        right: 0;
+        top: 73px;
+        justify-content: center;
+        align-items: center !important;
+        gap: 20px !important;
+    }
+
+    .header__nav-list{
+        flex-direction: column;
+    }
+
+    .nav-content__link{
+        flex-direction: column-reverse;
+    }
+
+    .block-menu{
+        display: none !important;
+    }
+
+
+    .rezume-info__nav{
+        display: none !important;
+    }
+
+    main {
+        margin-top: 100px !important;
+        margin-bottom: 55px;
+    }
+
+    .rezume-info__left-link a,
+    .rezume-info__left-link span,
+    .rezume-info__left-link{
+        font-size: 14px !important;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    ol, ul {
+        padding-left: 0rem !important;
+    }
+
+    .about-me__row{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .experience .about-me__row{
+        flex-direction: row !important;
+    }
+
+    .salary__content {
+        display: flex;
+        gap: 23px;
+        align-items: center;
+        justify-content: start !important;
+    }
+
+    .video-content{
+        height: 300px !important;
+    }
+
+    .experience__row{
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-content{
+        width: 70%;
+    }
+
+    .skills-list__link{
+        padding: 5px 10px !important;
+    }
+
+    .skills-list__link:nth-child(3) {
+        display: none;
+    }
+
+    .edit i{
+        font-size: 24px !important;
+    }
+
+    .video-content{
+        height: 250px !important;
+    }
+
+    .footer-nav{
+        display: none !important;
+    }
+
+    .footer-nav-mini{
+        display: flex !important;
+    }
+
+    .social .edit i,
+    .language-experience .edit i{
+        display: none !important;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    .rezume-info__content-row{
+        flex-direction: column;
+        /* justify-content: center !important; */
+        align-items: flex-start !important;
+        gap: 0px !important;
+    }
+
+    dl, ol, ul {
+        margin-top: 0;
+        margin-bottom: 1rem !important;
+    }
+
+    .rezume-info__left{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .rezume-info__left-link a {
+        margin-bottom: 0px !important;
+    }
+
+    .rezume-info__content{
+        padding: 20px 15px !important;
+    }
+
+    .about-me{
+        padding: 15px !important;
+    }
+
+    p {
+        margin-bottom: 0rem !important;
+    }
+
+    .working__imzo-paragraph{
+        margin-bottom: 10px !important;
+    }
+
+    .experience__row{
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+
+    .video-content{
+        height: 200px !important;
+    }
+
+    .language-experience__row{
+        flex-direction: column;
+    }
+
+    .language-experience .edit i{
+        display: none !important;
+    }
+
+    .language-experience__row {
+        gap: 20px !important;
+    }
+
+    .language-experience{
+        padding: 15px 15px 23px !important;
+    }
+
+    .social{
+        padding: 15px !important;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .nav-content{
+        width: 100%;
+    }
+
+    .header__nav{
+        padding: 17px 21px !important;
+    }
+
+    .about-me__title {
+        font-size: 18px !important; 
+    }
+
+    .about-me__row{
+        margin-bottom: 10px !important;    
+    }
+
+    .about-me__title i{
+        font-size: 24px !important;
+    }
+
+    .experience__button{
+        width: 100%;
+        padding: 13px 14px !important;
+    }
+
+    .experience__number{
+        margin-bottom: 20px;
+    }
+
+    .working-row__title {
+        font-size: 16px !important;
+    }
+
+    .video-content{
+        height: 150px !important;
+    }
+
+    .experience__button {
+        justify-content: center;
+    }
+
+    .experience__row {
+        gap: 0 !important;
+        margin-bottom: 19px !important;
+    }
+
+    .social__list-link img{
+        width: 18.286px !important;
+        height: 18.286px !important;
+    }
+
+    .social
+    .about-me__row {
+        margin-bottom: 0px !important;
+    }
+
+    .footer{
+        padding: 20px 0 !important;
+    }
+
+}
